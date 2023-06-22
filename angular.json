@@ -63,7 +63,10 @@
               "browserTarget": "angular-test-1:build:production"
             },
             "development": {
-              "browserTarget": "angular-test-1:build:development"
+              "browserTarget": "angular-test-1:build:development",
+              "ssl": false,
+              "sslKey": "src/assets/ssl/rootca.pkcs8",
+              "sslCert": "src/assets/ssl/javacn_rootcommonname_.cer"
             }
           },
           "defaultConfiguration": "development"
@@ -94,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "71f22f74-d2ce-4f27-adf5-4d1b8c72e09f"
   }
 }
